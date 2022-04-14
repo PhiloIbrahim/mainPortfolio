@@ -402,6 +402,7 @@ img {
   width: 600px;
   align-content: center;
   text-align: center;
+  /* margin-right: 6rem; */
   /*transform: translateX(-4rem);*/
 }
 
@@ -743,6 +744,7 @@ img {
   cursor: pointer;
   perspective: 800px;
   transform-style: preserve-3d;
+  transition: 0.8s transform ease;
 }
 
 .abstract {
@@ -1532,6 +1534,10 @@ form textarea {
 
   #home {
     height: 85vh;
+  }
+
+  .home__data {
+    margin-right: 6rem;
   }
 
   .home__social {
