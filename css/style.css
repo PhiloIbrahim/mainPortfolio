@@ -1539,6 +1539,9 @@ form textarea {
   .home__data {
     margin-right: 6rem;
   }
+  .home__scroll {
+    margin-right: 3rem;
+  }
 
   .home__social {
     transform: translateX(-7.5rem);
